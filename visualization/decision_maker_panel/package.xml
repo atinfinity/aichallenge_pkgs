@@ -8,7 +8,6 @@
   <author>h_ohta</author>
   <license>Apache 2</license>
 
-  <buildtool_depend>autoware_build_flags</buildtool_depend>
   <buildtool_depend>catkin</buildtool_depend>
 
   <depend>autoware_msgs</depend>

@@ -1,12 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(decision_maker_panel)
 
-
-find_package(autoware_build_flags REQUIRED)
 find_package(catkin REQUIRED COMPONENTS
   rviz
   std_msgs
-	autoware_msgs
+  autoware_msgs
 )
 
 if(rviz_QT_VERSION VERSION_LESS "5")
