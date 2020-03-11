@@ -17,3 +17,13 @@ So, please install `ros-melodic-jsk-recognition-msgs`.
 ### jsk_rviz_plugins
 The [tier4/aichallenge_bringup](https://github.com/tier4/aichallenge_bringup) depends on `jsk_rviz_plugins`.  
 So, please install `ros-melodic-jsk-rviz-plugins`.
+
+## Build Instructions
+```shell
+$ mkdir -p ~/catkin_ws/src
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/atinfinity/aichallenge_pkgs.git
+$ cd ..
+$ catkin build
+$ source devel/setup.bash
+```
