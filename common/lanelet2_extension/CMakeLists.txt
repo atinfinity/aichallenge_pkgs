@@ -20,8 +20,6 @@ find_path(PUGIXML_INCLUDE_DIRS
   PATH_SUFFIXES pugixml
 )
 
-find_package(autoware_build_flags REQUIRED)
-
 find_package(catkin REQUIRED COMPONENTS
   amathutils_lib
   roscpp
