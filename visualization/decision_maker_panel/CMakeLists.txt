@@ -57,6 +57,7 @@ set(SOURCE_FILES
 
 add_library(decision_maker_panel ${SOURCE_FILES} ${UIC_FILES})
 target_link_libraries(decision_maker_panel ${QT_LIBRARIES} ${catkin_LIBRARIES} ${rviz_DEFAULT_PLUGIN_LIBRARIES})
+add_dependencies(decision_maker_panel ${catkin_EXPORTED_TARGETS})
 
 ## Install rules
 
