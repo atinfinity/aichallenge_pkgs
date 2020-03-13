@@ -15,8 +15,12 @@ The `autoware_msgs` depends on `jsk_recognition_msgs`.
 So, please install `ros-melodic-jsk-recognition-msgs`.
 
 ### jsk_rviz_plugins
-The [tier4/aichallenge_bringup](https://github.com/tier4/aichallenge_bringup) depends on `jsk_rviz_plugins`.  
-So, please install `ros-melodic-jsk-rviz-plugins`.
+The [tier4/aichallenge_bringup](https://github.com/tier4/aichallenge_bringup) depends on some packages.  
+So, please install the following packages.
+
+- ros-melodic-rosbridge-server
+- ros-melodic-nmea-msgs
+- ros-melodic-jsk-rviz-plugins
 
 ## Build Instructions
 ```shell
