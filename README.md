@@ -14,7 +14,7 @@ I used [Lanelet2 v0.9](https://github.com/fzi-forschungszentrum-informatik/Lanel
 The `autoware_msgs` depends on `jsk_recognition_msgs`.  
 So, please install `ros-melodic-jsk-recognition-msgs`.
 
-### jsk_rviz_plugins
+### rosbridge_server, nmea_msgs, jsk_rviz_plugins, 
 The [tier4/aichallenge_bringup](https://github.com/tier4/aichallenge_bringup) depends on some packages.  
 So, please install the following packages.
 
